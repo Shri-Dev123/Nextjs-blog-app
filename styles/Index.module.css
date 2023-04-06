@@ -1,0 +1,53 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.5rem 1rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-blue {
+  background-color: #4c51bf;
+  color: #fff;
+  border: 1px solid #4c51bf;
+}
+
+.btn-blue:hover {
+  background-color: #434190;
+  border-color: #434190;
+}
+
+.btn-red {
+  background-color: #e53e3e;
+  color: #fff;
+  border: 1px solid #e53e3e;
+}
+
+.btn-red:hover {
+  background-color: #c53030;
+  border-color: #c53030;
+}
